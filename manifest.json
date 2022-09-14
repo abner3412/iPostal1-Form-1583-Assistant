@@ -1,0 +1,37 @@
+{
+    "name": "iPostal1 Form 1583 Assistant",
+    "description": "Auto-fill Form 1583 Info ",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting", "tabs"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "iPostal1 Form 1583 Assistant"
+      },
+      "content_scripts": [
+        {
+        "matches": ["https://ipostal1.com/form1583wzrd.php","https://ipostal1.com/form1583wzrd.php?step=MailRecipients"],
+        "js": ["jquery-3.6.0.js",
+        "main.js"]},
+        {
+          "matches": ["https://ipostal1.com/form1583wzrd.php?step=Address"],
+          "js": ["jquery-3.6.0.js",
+          "mainTwo.js"]},
+          {
+            "matches": ["https://ipostal1.com/form1583wzrd.php?step=BusinessInfo"],
+            "js": ["jquery-3.6.0.js",
+            "mainThree.js"]}, 
+            {
+              "matches": ["https://ipostal1.com/form1583wzrd.php?step=IDs,"],
+              "js": ["jquery-3.6.0.js",
+              "mainFour.js"]},
+              {
+                "matches": ["https://ipostal1.com/form1583wzrd.php?step=IDs"],
+                "js": ["jquery-3.6.0.js",
+                "mainFour.js"]}
+              
+              
+      
+      ]
+        
+  }

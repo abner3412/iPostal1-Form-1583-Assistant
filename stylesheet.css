@@ -1,0 +1,10 @@
+.label {
+    text-align: center;
+}
+
+#github:visited {
+    color: rgb(0, 0, 0);
+}
+#github:hover {
+    color: rgb(0, 146, 165);
+}
