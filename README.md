@@ -13,4 +13,4 @@ How to use:
 
 5. Choose the extension folder that contains the updated js files.
 
-6. All info will now be autofilled for iPostal1's USPS Form 1583 Assitant.
+6. All info will now be autofilled for iPostal1's USPS Form 1583 Assistant.
